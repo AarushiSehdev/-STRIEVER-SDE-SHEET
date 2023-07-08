@@ -4,6 +4,11 @@ public:
         int n=nums.size();
                 
         int ans=-1; 
+        if(n==1)
+        {
+            ans=0;
+            return ans;
+        }
             
         for(int i=0;i<n;i++)
        
